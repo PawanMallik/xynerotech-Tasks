@@ -52,11 +52,33 @@ Body (raw JSON):
   "email": "arjun@example.com"
 }
 
-http://localhost/apkadr-api.php?action=read
 
-http://localhost/apkadr-api.php?action=read_single&id=1
+#### Get All Doctors (GET)
+URL: http://localhost/apkadr-api.php?action=read
 
-http://localhost/apkadr-api.php?action=update
+#### Get Doctor by ID (GET)
+URL: http://localhost/apkadr-api.php?action=read_single&id=1
 
-http://localhost/apkadr-api.php?action=delete
+#### Update Doctor (PUT)
+URL: http://localhost/apkadr-api.php?action=update
+
+Body (raw JSON):
+```json
+  {
+  "id": 1,
+  "name": "Dr. Arjun Kumar",
+  "specialization": "Neurologist",
+  "phone": "9998887777",
+  "email": "arjunk@example.com"
+}
+
+#### Delete Doctor (DELETE)
+URL: http://localhost/apkadr-api.php?action=delete
+
+Body (raw JSON):
+```json
+ {
+  "id": 1
+}
+
 
