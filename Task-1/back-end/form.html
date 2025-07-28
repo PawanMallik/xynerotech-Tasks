@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Doctor</title>
+</head>
+<body>
+    <h2>Add Doctor</h2>
+    <form id="doctorForm">
+        <label>Name:</label><br>
+        <input type="text" id="name"><br><br>
+        <label>Specialization:</label><br>
+        <input type="text" id="specialization"><br><br>
+        <label>Phone:</label><br>
+        <input type="text" id="phone"><br><br>
+        <label>Email:</label><br>
+        <input type="text" id="email"><br><br>
+        <button type="button" onclick="addDoctor()">Add Doctor</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script>
+        function addDoctor() {
+            fetch("doctors/create.php", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    name: document.getElementById("name").value,
+                    specialization: document.getElementById("specialization").value,
+                    phone: document.getElementById("phone").value,
+                    email: document.getElementById("email").value
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("result").innerText = JSON.stringify(data);
+            });
+        }
+    </script>
+</body>
+</html>
