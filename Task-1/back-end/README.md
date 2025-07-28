@@ -1,45 +1,62 @@
-# Apkadr.in – Doctor Appointment Booking CRUD API (PHP + MySQL)
+# Apkadr.in – Doctor Appointment CRUD API (Single File Version)
 
-This is a **simple REST API** built using **PHP + MySQL** for managing doctors on the Apkadr.in platform.  
-It provides full **CRUD (Create, Read, Update, Delete)** functionality via API endpoints.
+This project is a **single PHP file** that provides a **REST API** for managing doctors (Create, Read, Update, Delete) in the **Apkadr.in** doctor appointment system.  
+It includes **database setup, API logic, and usage examples** in one file.
 
 ---
 
-## 1. Setup Instructions
+## Setup
 
-### Requirements
-- XAMPP (or any server with PHP 7+ and MySQL)
-- Postman (for testing)
-- Browser (for quick checks)
+1. Install **XAMPP** (or any PHP + MySQL server).
+2. Save this file as: C:\xampp\htdocs\apkadr-api.php
 
-### Installation
-1. Copy the folder `apkadr-php-api` into: C:\xampp\htdocs\
-2. Start **Apache** and **MySQL** from XAMPP.
-3. Create the database and table using phpMyAdmin:
-
-```sql
-CREATE DATABASE IF NOT EXISTS apkadr;
-USE apkadr;
-
-CREATE TABLE IF NOT EXISTS doctors (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(100) NOT NULL,
-  specialization VARCHAR(100) NOT NULL,
-  phone VARCHAR(20),
-  email VARCHAR(100),
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);```
+3. Start **Apache** and **MySQL** in XAMPP.
+4. Open Postman or browser: http://localhost/apkadr-api.php
 
 
-### Test API by opening: "http://localhost/apkadr-php-api/doctors/read.php"
-### API Endpoints: "http://localhost/apkadr-php-api/doctors/"
+---
 
-a) Create Doctor
-Endpoint: POST create.php
-Body (JSON):
+## Database Setup
+
+This script **automatically creates** the database and `doctors` table if they don’t exist:
+- Database: `apkadr`
+- Table: `doctors`
+
+---
+
+## API Usage
+
+The API uses query parameters for actions:
+
+| Method  | URL                                      | Description                |
+|---------|-------------------------------------------|----------------------------|
+| POST    | `apkadr-api.php?action=create`           | Add a new doctor           |
+| GET     | `apkadr-api.php?action=read`             | Get all doctors            |
+| GET     | `apkadr-api.php?action=read_single&id=1` | Get doctor by ID           |
+| PUT     | `apkadr-api.php?action=update`           | Update doctor (JSON body)  |
+| DELETE  | `apkadr-api.php?action=delete`           | Delete doctor (JSON body)  |
+
+---
+
+## Example Requests (Postman)
+
+### Create Doctor (POST)
+URL: http://localhost/apkadr-api.php?action=create
+
+Body (raw JSON):
+```json
 {
   "name": "Dr. Arjun Mehta",
   "specialization": "Cardiologist",
   "phone": "9876543210",
   "email": "arjun@example.com"
 }
+
+http://localhost/apkadr-api.php?action=read
+
+http://localhost/apkadr-api.php?action=read_single&id=1
+
+http://localhost/apkadr-api.php?action=update
+
+http://localhost/apkadr-api.php?action=delete
+
