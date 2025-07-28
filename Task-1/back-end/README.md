@@ -28,19 +28,15 @@ CREATE TABLE IF NOT EXISTS doctors (
   phone VARCHAR(20),
   email VARCHAR(100),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+);```
 
 
-#### Test API by opening: "http://localhost/apkadr-php-api/doctors/read.php"
-##### API Endpoints: "http://localhost/apkadr-php-api/doctors/"
+### Test API by opening: "http://localhost/apkadr-php-api/doctors/read.php"
+### API Endpoints: "http://localhost/apkadr-php-api/doctors/"
 
 a) Create Doctor
 Endpoint: POST create.php
 Body (JSON):
-
-json
-Copy
-Edit
 {
   "name": "Dr. Arjun Mehta",
   "specialization": "Cardiologist",
