@@ -11,7 +11,7 @@ It includes **database setup, API logic, and usage examples** in one file.
 2. Save this file as: C:\xampp\htdocs\apkadr-api.php
 
 3. Start **Apache** and **MySQL** in XAMPP.
-4. Open Postman or browser: http://localhost/apkadr-api.php
+4. Open Postman or browser: http://localhost/apkadr-php-api/doctors/read.php
 
 
 ---
@@ -28,13 +28,13 @@ This script **automatically creates** the database and `doctors` table if they d
 
 The API uses query parameters for actions:
 
-| Method  | URL                                      | Description                |
-|---------|-------------------------------------------|----------------------------|
-| POST    | `apkadr-api.php?action=create`           | Add a new doctor           |
-| GET     | `apkadr-api.php?action=read`             | Get all doctors            |
-| GET     | `apkadr-api.php?action=read_single&id=1` | Get doctor by ID           |
-| PUT     | `apkadr-api.php?action=update`           | Update doctor (JSON body)  |
-| DELETE  | `apkadr-api.php?action=delete`           | Delete doctor (JSON body)  |
+| Method  | Endpoint                                  | Description                |
+|---------|--------------------------------------------|----------------------------|
+| POST    | `http://localhost/apkadr-php-api/doctors/create.php`           | Add a new doctor           |
+| GET     | `http://localhost/apkadr-php-api/doctors/read.php`             | Get all doctors            |
+| GET     | `http://localhost/apkadr-php-api/doctors/read_single.php?id=1` | Get doctor by ID           |
+| PUT     | `http://localhost/apkadr-php-api/doctors/update.php`           | Update doctor (JSON body)  |
+| DELETE  | `http://localhost/apkadr-php-api/doctors/delete.php`           | Delete doctor (JSON body)  |
 
 ---
 
@@ -54,13 +54,13 @@ Body (raw JSON):
 ```
 
 ## Get All Doctors (GET)
-URL: http://localhost/apkadr-api.php?action=read
+URL: http://localhost/apkadr-php-api/doctors/read.php
 
 ## Get Doctor by ID (GET)
-URL: http://localhost/apkadr-api.php?action=read_single&id=1
+URL: http://localhost/apkadr-php-api/doctors/read_single.php?id=1
 
 ## Update Doctor (PUT)
-URL: http://localhost/apkadr-api.php?action=update
+URL:http://localhost/apkadr-php-api/doctors/update.php
 
 Body (raw JSON):
 ```json
@@ -73,7 +73,7 @@ Body (raw JSON):
 } 
 ```
 ## Delete Doctor (DELETE)
-URL: http://localhost/apkadr-api.php?action=delete
+URL: http://localhost/apkadr-php-api/doctors/delete.php
 
 Body (raw JSON):
 ```json
