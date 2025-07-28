@@ -1,4 +1,4 @@
-# Apkadr.in – Doctor Appointment CRUD API (Single File Version)
+# Apkadr.in – Doctor Appointment CRUD API
 
 This project is a **single PHP file** that provides a **REST API** for managing doctors (Create, Read, Update, Delete) in the **Apkadr.in** doctor appointment system.  
 It includes **database setup, API logic, and usage examples** in one file.
@@ -52,14 +52,13 @@ Body (raw JSON):
   "email": "arjun@example.com"
 }
 
-
-#### Get All Doctors (GET)
+## Get All Doctors (GET)
 URL: http://localhost/apkadr-api.php?action=read
 
-#### Get Doctor by ID (GET)
+## Get Doctor by ID (GET)
 URL: http://localhost/apkadr-api.php?action=read_single&id=1
 
-#### Update Doctor (PUT)
+## Update Doctor (PUT)
 URL: http://localhost/apkadr-api.php?action=update
 
 Body (raw JSON):
@@ -70,15 +69,15 @@ Body (raw JSON):
   "specialization": "Neurologist",
   "phone": "9998887777",
   "email": "arjunk@example.com"
-}
+}```
 
-#### Delete Doctor (DELETE)
+## Delete Doctor (DELETE)
 URL: http://localhost/apkadr-api.php?action=delete
 
 Body (raw JSON):
 ```json
  {
   "id": 1
-}
+}```
 
 
