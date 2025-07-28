@@ -41,7 +41,7 @@ The API uses query parameters for actions:
 ## Example Requests (Postman)
 
 ### Create Doctor (POST)
-URL: http://localhost/apkadr-api.php?action=create
+URL: http://localhost/apkadr-php-api/doctors/create.php
 
 Body (raw JSON):
 ```json
