@@ -51,6 +51,7 @@ Body (raw JSON):
   "phone": "9876543210",
   "email": "arjun@example.com"
 }
+```
 
 ## Get All Doctors (GET)
 URL: http://localhost/apkadr-api.php?action=read
@@ -69,8 +70,8 @@ Body (raw JSON):
   "specialization": "Neurologist",
   "phone": "9998887777",
   "email": "arjunk@example.com"
-}```
-
+} 
+```
 ## Delete Doctor (DELETE)
 URL: http://localhost/apkadr-api.php?action=delete
 
@@ -78,6 +79,4 @@ Body (raw JSON):
 ```json
  {
   "id": 1
-}```
-
-
+}
