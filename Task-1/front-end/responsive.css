@@ -1,0 +1,41 @@
+
+
+/* Small Devices (Landscape phones, 576px - 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    font-size: 15px;
+  }
+  /* Adjust layout, hide/show elements, stack columns, etc. */
+}
+
+/* Medium Devices (Tablets, 768px - 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ .right-nav{
+    display: none;
+ }
+}
+
+/* Large Devices (Desktops, 992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    font-size: 17px;
+  }
+  /* Layout for standard desktops */
+}
+
+/* Extra Large Devices (Large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+  /* Wide layouts, big screens */
+}
+
+/* Ultra-Wide Screens (Optional, 1600px and up) */
+@media (min-width: 1600px) {
+  body {
+    font-size: 20px;
+    max-width: 1600px;
+    margin: auto;
+  }
+}

@@ -25,7 +25,7 @@ nav {
   height: 100%;
   width: 40%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .right-nav {
@@ -48,6 +48,24 @@ nav {
 .right-nav ul li a {
   text-decoration: none;
   color: black;
+}
+.burger{
+  height: 40px;
+  width: 40px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column-reverse;
+  display: none;
+}
+
+.line{
+  height: 5px;
+  width: 90%;
+  background-color: black;
+  border-radius: 25px;
 }
 
 .hero-section {
@@ -672,4 +690,254 @@ footer {
 }
 .sf-two {
   font-size: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices (Portrait phones, <576px) */
+@media (max-width: 575.98px) {
+ nav{
+    /* background-color: red; */
+ }
+ .left-nav{
+    width: 100%;
+ }
+  .right-nav{
+    display: none;
+ }
+ .burger{
+    display: block;
+    /* background-color: red; */
+    gap: 5px;
+    display: flex;
+ }
+ .hero-section{
+    /* background-color: red; */
+    height: 70vh;
+ }
+ .all-details{
+    /* background-color: green; */
+    width: 90%;
+    height: 90%;
+ }
+ .colorful{
+    font-size: 3em;
+}
+.re{
+  font-size: 1.9em;
+}
+.normal{
+    font-size: 1.4em;
+}
+.button{
+    /* background-color: red; */
+}
+.button button{
+    width: 30%;
+}
+.second-section{
+    /* background-color: red; */
+    height: 80vh;
+}
+.second-small{
+    /* background-color: palegreen; */
+    height: 100%;
+}
+.heading{
+    /* background-color: aqua; */
+    height: 100px;
+
+ }
+ .heading p{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100%;
+ }
+ .heading span{
+    /* background-color: green; */
+    display: none;
+ }
+ .second-first{
+    /* background-color: violet; */
+    flex-direction: column;
+ }
+ 
+ .second-ff{
+    /* background-color: red; */
+    width: 100%;
+ }
+ .second-fs{
+    /* background-color: magenta; */
+    width: 100%;
+    column-gap: 20px;
+ }
+ .product{
+    /* background-color: aquamarine; */
+    height: 80%;
+    gap: 18px;
+ }
+ .buttton{
+    /* background-color: aliceblue; */
+ }
+ .third-section{
+    /* background-color: red; */
+    /* height: auto; */
+    height:auto;
+ }
+ .third-small{
+    /* background-color: green; */
+    width: 100%;
+
+ }
+ .heading-2{
+    /* background-color: aqua; */
+    height: 10%;
+    width: 100%;
+ }
+
+ .paragraph{
+  /* background-color: blue; */
+  width: 90%;
+  /* padding-inline: 200px; */
+  height: 20%;
+ }
+ .card-layer{
+  /* background-color: yellow; */
+  flex-wrap: wrap;
+  /* display: none; */
+ }
+ .card{
+  /* background-color: red; */
+  width: 70%;
+  /* height: 500px; */
+  padding-top: 20px;
+ }
+ .texxt p:nth-child(1) {
+  font-size: 2.5em;
+ }
+ .texxt p:nth-child(2) {
+  font-size: 1.5em;
+ }
+ .why-one{
+  /* background-color: red; */
+  width: 50%;
+ }
+ .why-c{
+  /* background-color: green; */
+  width: 100%;
+  flex-direction: column;
+ }
+ .why-two{
+  width: 100%;
+  /* background-color: aqua; */
+ }
+ 
+.s-card p:nth-child(2) {
+    font-size: 0.5em;
+}
+.s-card p:nth-child(1) {
+    font-size: 1em;
+}
+.s-carrd hr {
+    /* height: 100%; */
+    width: 90%;
+}
+
+.review{
+  /* background-color: red; */
+  height: auto;
+}
+.s-carrd{
+  /* background-color: yellow; */
+  flex-direction: column;
+  gap: 50px;
+}
+.s-heading{
+  /* background-color: green; */
+  height: 100px;
+  font-size: 2em;
+}
+.ss-card{
+  width: 55%;
+}
+.teeext p:nth-child(1) {
+    text-align: center;
+    font-size: 2.3em;
+}
+.teeext p:nth-child(2) {
+    text-align: center;
+    font-size: 1.3em;
+    /* background-color: red ; */
+    /* width: 90%; */
+}
+
+.teeext {
+    height: 30%;
+    width: 179%;
+    /* background-color: green; */
+}
+.badges{
+  /* background-color: red; */
+  height: auto;
+}
+.archi{
+  /* background-color: green; */
+  flex-direction: column;
+  gap: 30px;
+}
+.cardd{
+  width: 90%;
+  /* background-color: magenta; */
+}
+.texxxt{
+  width: 90%;
+  /* background-color: aqua; */
+}
+/* .re{
+  font-size: 3.3em;
+        height: 100px;
+        width: 100%;
+        background: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+} */
+.texxxt p:nth-child(1) {
+    font-size: 1.6em;
+    /* background-color: yellow; */
+}
 }
