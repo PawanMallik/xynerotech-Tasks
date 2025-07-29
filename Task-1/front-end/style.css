@@ -10,7 +10,7 @@
 nav {
   height: 60px;
   width: 100%;
-  /* background-color: red; */
+  background-color: #f3f5ff;
   display: flex;
   justify-content: center;
   align-items: center;
