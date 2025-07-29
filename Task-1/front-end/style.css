@@ -7,6 +7,9 @@
   /* color: white; */
   font-family: "Poppins", sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 nav {
   height: 60px;
   width: 100%;
@@ -15,6 +18,7 @@ nav {
   justify-content: center;
   align-items: center;
   position: sticky;
+  top: 0;
 }
 .left-nav {
   /* background-color: green; */
