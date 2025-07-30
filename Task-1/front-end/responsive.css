@@ -1,15 +1,36 @@
 
 /* Extra Small Devices (Portrait phones, <576px) */
+
 @media (max-width: 575.98px) {
- nav{
-    /* background-color: red; */
- }
- .left-nav{
-    width: 100%;
- }
-  .right-nav{
-    display: none;
- }
+  .none{
+        display: none;
+      }
+    .right-nav {
+        /* display: none; */
+        height: auto;
+    }
+    .left-nav {
+        width: 100%;
+        height: 100px;
+    }
+    
+       
+.right-nav ul {
+    display: flex;
+    gap: 50px;
+    /* background-color: aqua; */
+    flex-direction: column;
+}
+.right-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+nav {
+        /* background-color: red; */
+        flex-direction: column;
+        height: auto;
+    }
  .burger{
     display: block;
     /* background-color: red; */
@@ -213,42 +234,873 @@
 }
 }
 
+
+
+
+
+
+
+@media (max-width: 414px) {
+  .none{
+        display: none;
+      }
+    .right-nav {
+        /* display: none; */
+        height: auto;
+    }
+    .left-nav {
+        width: 100%;
+        height: 100px;
+    }
+    
+       .black{
+        font-size: 2.3em;
+       }
+.right-nav ul {
+    display: flex;
+    gap: 50px;
+    /* background-color: aqua; */
+    flex-direction: column;
+}
+.right-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+nav {
+        /* background-color: red; */
+        flex-direction: column;
+        height: auto;
+    }
+ .burger{
+    display: block;
+    /* background-color: red; */
+    gap: 5px;
+    display: flex;
+ }
+ .hero-section{
+    /* background-color: red; */
+    height: 70vh;
+ }
+ .all-details{
+    /* background-color: green; */
+    width: 90%;
+    height: 90%;
+ }
+ .colorful{
+    font-size: 4.5em;
+}
+.re{
+  font-size: 1.4em;
+}
+.normal{
+    font-size: 1em;
+}
+.button{
+    /* background-color: red; */
+}
+.why-t{
+      font-size: 1.9em;
+
+}
+.s-card{
+  padding: 10px;
+}
+.button button{
+    width: 30%;
+}
+.second-section{
+    /* background-color: red; */
+    height: auto;
+}
+.second-small{
+    /* background-color: palegreen; */
+    height: 100%;
+}
+.heading{
+    /* background-color: aqua; */
+    height: 100px;
+
+ }
+ .heading p{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100%;
+    font-size: 2.3em;
+ }
+
+ .heading span{
+    /* background-color: green; */
+    display: none;
+ }
+ .second-first{
+    /* background-color: violet; */
+    flex-direction: column;
+ }
+ 
+ .second-ff{
+    /* background-color: red; */
+    width: 100%;
+ }
+ .second-fs{
+    /* background-color: magenta; */
+    width: 100%;
+    column-gap: 20px;
+ }
+ .product{
+    /* background-color: aquamarine; */
+   height: auto;
+        gap: 18px;
+        padding-block: 20px;
+ }
+ .product img{
+  height: 80px;
+  width: 80px;
+  &:nth-child(10){
+    display: none;
+  }
+ }
+
+
+ .buttton{
+    /* background-color: aliceblue; */
+    height: 70px;
+justify-content: center;
+ }
+ .buttton button{
+  width: 80%;
+  margin-right: 0;
+ }
+ .third-section{
+    /* background-color: red; */
+    /* height: auto; */
+    height:auto;
+ }
+ .third-small{
+    /* background-color: green; */
+    width: 100%;
+
+ }
+ .heading-2{
+    /* background-color: aqua; */
+    height: 10%;
+    width: 100%;
+ }
+
+ .paragraph{
+  /* background-color: blue; */
+  width: 90%;
+  /* padding-inline: 200px; */
+  height: 20%;
+ }
+ .card-layer{
+  /* background-color: yellow; */
+  flex-wrap: wrap;
+  /* display: none; */
+ }
+ .card{
+  /* background-color: red; */
+  width: 70%;
+  /* height: 500px; */
+  padding-top: 20px;
+ }
+ .texxt p:nth-child(1) {
+  font-size: 2.5em;
+ }
+ .texxt p:nth-child(2) {
+  font-size: 1.5em;
+ }
+ .why-one{
+  /* background-color: red; */
+  width: 50%;
+ }
+ .why-c{
+  /* background-color: green; */
+  width: 100%;
+  flex-direction: column;
+ }
+ .why-two{
+  width: 100%;
+  /* background-color: aqua; */
+ }
+ 
+.s-card p:nth-child(2) {
+    font-size: 0.5em;
+}
+.s-card p:nth-child(1) {
+    font-size: 1em;
+    text-align: center;
+}
+.s-heading p{
+  font-size: 1.8em;
+}
+.s-carrd hr {
+    /* height: 100%; */
+    width: 90%;
+}
+
+.review{
+  /* background-color: red; */
+  height: auto;
+}
+.s-carrd{
+  /* background-color: yellow; */
+  flex-direction: column;
+  gap: 50px;
+}
+.s-heading{
+  /* background-color: green; */
+  height: 100px;
+  font-size: 2em;
+}
+.ss-card{
+  width: 55%;
+}
+.teeext p:nth-child(1) {
+    text-align: center;
+    font-size: 2.3em;
+}
+.teeext p:nth-child(2) {
+    text-align: center;
+    font-size: 1.3em;
+    /* background-color: red ; */
+    /* width: 90%; */
+}
+
+.teeext {
+    height: 30%;
+    width: 179%;
+    /* background-color: green; */
+}
+.badges{
+  /* background-color: red; */
+  height: auto;
+}
+.archi{
+  /* background-color: green; */
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 40px;
+}
+.cardd{
+  width: 90%;
+  /* background-color: magenta; */
+}
+.texxxt{
+  width: 90%;
+  /* background-color: aqua; */
+}
+/* .re{
+  font-size: 3.3em;
+        height: 100px;
+        width: 100%;
+        background: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+} */
+.texxxt p:nth-child(1) {
+    font-size: 1.6em;
+    /* background-color: yellow; */
+}
+footer{
+  flex-direction: column;
+  height: auto;
+  padding-block: 20px;
+}
+.sf-two p{
+  padding-block: 20px;
+}
+.first-footer{
+  /* background-color: red; */
+  width: 100%;
+}
+.second-footer{
+  /* background-color: green; */
+  width: 100%;
+}
+}
+
 /* Small Devices (Landscape phones, 576px - 767px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  body {
-    font-size: 15px;
+  .none{
+        display: none;
+      }
+    .right-nav {
+        /* display: none; */
+        height: auto;
+    }
+    .left-nav {
+        width: 100%;
+        height: 100px;
+    }
+    
+       .black{
+        font-size: 2.3em;
+       }
+.right-nav ul {
+    display: flex;
+    gap: 50px;
+    /* background-color: aqua; */
+    flex-direction: column;
+}
+.right-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+nav {
+        /* background-color: red; */
+        flex-direction: column;
+        height: auto;
+    }
+ .burger{
+    display: block;
+    /* background-color: red; */
+    gap: 5px;
+    display: flex;
+ }
+ .hero-section{
+    /* background-color: red; */
+    height: 70vh;
+ }
+ .all-details{
+    /* background-color: green; */
+    width: 90%;
+    height: 90%;
+ }
+ .colorful{
+    font-size: 4.5em;
+}
+.re{
+  font-size: 1.4em;
+}
+.normal{
+    font-size: 1em;
+}
+.button{
+    /* background-color: red; */
+}
+.why-t{
+      font-size: 1.9em;
+
+}
+.s-card{
+  padding: 10px;
+}
+.button button{
+    width: 30%;
+}
+.second-section{
+    /* background-color: red; */
+    height: auto;
+}
+.second-small{
+    /* background-color: palegreen; */
+    height: 100%;
+}
+.heading{
+    /* background-color: aqua; */
+    height: 100px;
+
+ }
+ .heading p{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100%;
+    font-size: 2.3em;
+ }
+
+ .heading span{
+    /* background-color: green; */
+    display: none;
+ }
+ .second-first{
+    /* background-color: violet; */
+    flex-direction: column;
+ }
+ 
+ .second-ff{
+    /* background-color: red; */
+    width: 100%;
+ }
+ .second-fs{
+    /* background-color: magenta; */
+    width: 100%;
+    column-gap: 20px;
+ }
+ .product{
+    /* background-color: aquamarine; */
+   height: auto;
+        gap: 18px;
+        padding-block: 20px;
+ }
+ .product img{
+  height: 80px;
+  width: 80px;
+  &:nth-child(10){
+    display: none;
   }
-  /* Adjust layout, hide/show elements, stack columns, etc. */
+ }
+
+
+ .buttton{
+    /* background-color: aliceblue; */
+    height: 70px;
+justify-content: center;
+ }
+ .buttton button{
+  width: 80%;
+  margin-right: 0;
+ }
+ .third-section{
+    /* background-color: red; */
+    /* height: auto; */
+    height:auto;
+ }
+ .third-small{
+    /* background-color: green; */
+    width: 100%;
+
+ }
+ .heading-2{
+    /* background-color: aqua; */
+    height: 10%;
+    width: 100%;
+ }
+
+ .paragraph{
+  /* background-color: blue; */
+  width: 90%;
+  /* padding-inline: 200px; */
+  height: 20%;
+ }
+ .card-layer{
+  /* background-color: yellow; */
+  flex-wrap: wrap;
+  /* display: none; */
+ }
+ .card{
+  /* background-color: red; */
+  width: 70%;
+  /* height: 500px; */
+  padding-top: 20px;
+ }
+ .texxt p:nth-child(1) {
+  font-size: 2.5em;
+ }
+ .texxt p:nth-child(2) {
+  font-size: 1.5em;
+ }
+ .why-one{
+  /* background-color: red; */
+  width: 50%;
+ }
+ .why-c{
+  /* background-color: green; */
+  width: 100%;
+  flex-direction: column;
+ }
+ .why-two{
+  width: 100%;
+  /* background-color: aqua; */
+ }
+ 
+.s-card p:nth-child(2) {
+    font-size: 0.5em;
+}
+.s-card p:nth-child(1) {
+    font-size: 1em;
+    text-align: center;
+}
+.s-heading p{
+  font-size: 1.8em;
+}
+.s-carrd hr {
+    /* height: 100%; */
+    width: 90%;
+}
+
+.review{
+  /* background-color: red; */
+  height: auto;
+}
+.s-carrd{
+  /* background-color: yellow; */
+  flex-direction: column;
+  gap: 50px;
+}
+.s-heading{
+  /* background-color: green; */
+  height: 100px;
+  font-size: 2em;
+}
+.ss-card{
+  width: 55%;
+}
+.teeext p:nth-child(1) {
+    text-align: center;
+    font-size: 2.3em;
+}
+.teeext p:nth-child(2) {
+    text-align: center;
+    font-size: 1.3em;
+    /* background-color: red ; */
+    /* width: 90%; */
+}
+
+.teeext {
+    height: 30%;
+    width: 179%;
+    /* background-color: green; */
+}
+.badges{
+  /* background-color: red; */
+  height: auto;
+}
+.archi{
+  /* background-color: green; */
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 40px;
+}
+.cardd{
+  width: 90%;
+  /* background-color: magenta; */
+}
+.texxxt{
+  width: 90%;
+  /* background-color: aqua; */
+}
+/* .re{
+  font-size: 3.3em;
+        height: 100px;
+        width: 100%;
+        background: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+} */
+.texxxt p:nth-child(1) {
+    font-size: 1.6em;
+    /* background-color: yellow; */
+}
+footer{
+  flex-direction: column;
+  height: auto;
+  padding-block: 20px;
+}
+.sf-two p{
+  padding-block: 20px;
+}
+.first-footer{
+  /* background-color: red; */
+  width: 100%;
+}
+.second-footer{
+  /* background-color: green; */
+  width: 100%;
+}
 }
 
 /* Medium Devices (Tablets, 768px - 991px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
- .right-nav{
+   .none{
+        display: none;
+      }
+    .right-nav {
+        /* display: none; */
+        height: auto;
+    }
+    .left-nav {
+        width: 100%;
+        height: 100px;
+    }
+    
+       .black{
+        font-size: 3.3em;
+       }
+.right-nav ul {
+    display: flex;
+    gap: 50px;
+    /* background-color: aqua; */
+    flex-direction: column;
+}
+.right-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+nav {
+        /* background-color: red; */
+        flex-direction: column;
+        height: auto;
+    }
+ .burger{
+    display: block;
+    /* background-color: red; */
+    gap: 5px;
+    display: flex;
+ }
+ .hero-section{
+    /* background-color: red; */
+    height: 70vh;
+ }
+ .all-details{
+    /* background-color: green; */
+    width: 90%;
+    height: 90%;
+ }
+ .colorful{
+    font-size: 4.5em;
+}
+.re{
+  font-size: 2.4em;
+}
+.normal{
+    font-size: 1em;
+}
+.button{
+    /* background-color: red; */
+}
+.why-t{
+      font-size: 1.9em;
+
+}
+.s-card{
+  padding: 10px;
+}
+.button button{
+    width: 30%;
+}
+.second-section{
+    /* background-color: red; */
+    height: auto;
+}
+.second-small{
+    /* background-color: palegreen; */
+    height: 100%;
+}
+.heading{
+    /* background-color: aqua; */
+    height: 100px;
+
+ }
+ .heading p{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100%;
+    font-size: 4.3em;
+ }
+
+ .heading span{
+    /* background-color: green; */
     display: none;
  }
+ .second-first{
+    /* background-color: violet; */
+    flex-direction: column;
+ }
+ 
+ .second-ff{
+    /* background-color: red; */
+    width: 100%;
+ }
+ .second-fs{
+    /* background-color: magenta; */
+    width: 100%;
+    column-gap: 20px;
+ }
+ .product{
+    /* background-color: aquamarine; */
+   height: auto;
+        gap: 18px;
+        padding-block: 20px;
+ }
+ .product img{
+  height: 146px;
+  width: 146px;
+  &:nth-child(10){
+    display: none;
+  }
+ }
+
+
+ .buttton{
+    /* background-color: aliceblue; */
+    height: 70px;
+justify-content: center;
+ }
+ .buttton button{
+  width: 80%;
+  margin-right: 0;
+ }
+ .third-section{
+    /* background-color: red; */
+    /* height: auto; */
+    height:auto;
+ }
+ .third-small{
+    /* background-color: green; */
+    width: 100%;
+
+ }
+ .heading-2{
+    /* background-color: aqua; */
+    height: 10%;
+    width: 100%;
+ }
+
+ .paragraph{
+  /* background-color: blue; */
+  width: 90%;
+  /* padding-inline: 200px; */
+  height: 20%;
+ }
+ .card-layer{
+  /* background-color: yellow; */
+  flex-wrap: wrap;
+  /* display: none; */
+ }
+ .card{
+  /* background-color: red; */
+  width: 40%;
+  /* height: 500px; */
+  padding-top: 20px;
+ }
+ .texxt p:nth-child(1) {
+  font-size: 2.5em;
+ }
+ .texxt p:nth-child(2) {
+  font-size: 1.5em;
+ }
+ .why-one{
+  /* background-color: red; */
+  width: 50%;
+ }
+ .why-c{
+  /* background-color: green; */
+  width: 100%;
+  flex-direction: column;
+ }
+ .why-two{
+  width: 100%;
+  /* background-color: aqua; */
+          height: 370px;
+ }
+ .why-us{
+  height: auto;
+ }
+ 
+.s-card p:nth-child(2) {
+    font-size: 0.5em;
+}
+.s-card p:nth-child(1) {
+    font-size: 1em;
+    text-align: center;
+}
+.s-heading p{
+  font-size: 1.8em;
+}
+.s-carrd hr {
+    /* height: 100%; */
+    width: 90%;
+}
+
+.review{
+  /* background-color: red; */
+  height: auto;
+}
+.s-carrd{
+  /* background-color: yellow; */
+  flex-direction: column;
+  gap: 50px;
+  padding-block: 30px;
+}
+.s-heading{
+  /* background-color: green; */
+  height: 100px;
+  font-size: 3em;
+}
+.ss-card{
+  width: 55%;
+}
+.teeext p:nth-child(1) {
+    text-align: center;
+    font-size: 2.3em;
+}
+.teeext p:nth-child(2) {
+    text-align: center;
+    font-size: 1.3em;
+    /* background-color: red ; */
+    /* width: 90%; */
+}
+
+.teeext {
+    height: 30%;
+    width: 179%;
+    /* background-color: green; */
+}
+.badges{
+  /* background-color: red; */
+  height: auto;
+}
+.archi{
+  /* background-color: green; */
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 40px;
+}
+.cardd{
+  width: 90%;
+  /* background-color: magenta; */
+}
+.texxxt{
+  width: 90%;
+  /* background-color: aqua; */
+}
+/* .re{
+  font-size: 3.3em;
+        height: 100px;
+        width: 100%;
+        background: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+} */
+.texxxt p:nth-child(1) {
+    font-size: 1.6em;
+    /* background-color: yellow; */
+}
+footer{
+  flex-direction: column;
+  height: auto;
+  padding-block: 20px;
+}
+.sf-two p{
+  padding-block: 20px;
+}
+.first-footer{
+  /* background-color: red; */
+  width: 100%;
+}
+.second-footer{
+  /* background-color: green; */
+  width: 100%;
+}
 }
 
 /* Large Devices (Desktops, 992px - 1199px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  body {
-    font-size: 17px;
-  }
-  /* Layout for standard desktops */
+ 
 }
 
 /* Extra Large Devices (Large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  body {
-    font-size: 18px;
-  }
-  /* Wide layouts, big screens */
+  
 }
 
 /* Ultra-Wide Screens (Optional, 1600px and up) */
 @media (min-width: 1600px) {
-  body {
-    font-size: 20px;
-    max-width: 1600px;
-    margin: auto;
-  }
+  
 }

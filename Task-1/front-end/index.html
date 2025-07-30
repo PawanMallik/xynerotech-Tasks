@@ -23,14 +23,14 @@
     <nav>
       <div class="left-nav">
         <p>ABC Technologies</p>
-        <div class="burger">
+        <div class="burger" id="burger">
           <div class="line"></div>
           <div class="line"></div>
           <div class="line"></div>
         </div>
       </div>
-      <div class="right-nav">
-        <ul>
+      <div class="right-nav none" id="r-nav">
+        <ul id="bck">
           <li><a href="#home">Home</a></li>
           <li><a href="#why">About</a></li>
           <li><a href="#features">Services</a></li>
@@ -356,5 +356,20 @@
         </div>
       </div>
     </footer>
+
+
+    <script>
+      const burger = document.querySelector('#burger')
+      const nav = document.querySelector('#r-nav')
+      const back = document.querySelector('#bck')
+      burger.addEventListener('click',()=>{
+        nav.classList.toggle('none')
+         burger.classList.toggle("active");
+        })
+        back.addEventListener('click',()=>{
+        burger.classList.toggle("active");
+        nav.classList.toggle('none')
+      })
+    </script>
   </body>
 </html>

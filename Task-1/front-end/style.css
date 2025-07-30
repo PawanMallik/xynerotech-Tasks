@@ -20,6 +20,7 @@ nav {
   position: sticky;
   top: 0;
 }
+
 .left-nav {
   /* background-color: green; */
   height: 100%;
@@ -49,23 +50,33 @@ nav {
   text-decoration: none;
   color: black;
 }
-.burger{
-  height: 40px;
-  width: 40px;
-  /* background-color: red; */
+.burger {
+  width: 30px;
+  height: 25px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
   display: none;
 }
 
-.line{
-  height: 5px;
-  width: 90%;
+.line {
+  height: 4px;
   background-color: black;
-  border-radius: 25px;
+  border-radius: 2px;
+  transition: 0.4s ease;
+}
+
+.burger.active .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.active .line:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
 }
 
 .hero-section {
