@@ -144,12 +144,24 @@ nav {
   border-radius: 25px;
   border: none;
   background-color: black;
+  transition: all 0.3s ease;
+
   color: white;
+  &:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+  }
 }
 .button button:nth-child(2) {
   background-color: white;
   color: black;
   border: 2px solid black;
+  transition: all 0.3s ease;
+  &:hover{
+    background-color: black;
+    color: white;
+  }
 }
 
 .second-section {
@@ -295,6 +307,10 @@ nav {
   height: 90%;
   width: 20%;
   /* background-color: magenta; */
+  &:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
 }
 .img {
   height: 70%;
@@ -378,6 +394,12 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  &:hover{
+     &:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  }
 }
 .s-card p:nth-child(1){
   font-size: 1em;
