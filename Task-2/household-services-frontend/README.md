@@ -39,5 +39,5 @@ Built with **React.js + TailwindCSS** for the frontend and **Node.js + Express +
 
 ---
 
-## 📂 Project Structure
+## project live at : https://servicee-hub.netlify.app/
 
