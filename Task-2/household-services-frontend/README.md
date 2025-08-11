@@ -1,12 +1,43 @@
-# React + Vite
+# 🏠 Household Services Booking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application for booking household services such as cleaning, plumbing, electrical work, and more.  
+Built with **React.js + TailwindCSS** for the frontend and **Node.js + Express + MySQL** for the backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+### User
+- Browse all available household services
+- Search and filter services
+- Book a service online
+- User authentication (Register/Login)
+- Mobile-friendly responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Admin
+- Manage services (Add, Edit, Delete)
+- View all bookings
+- Approve or reject service requests
+- Secure admin authentication
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+- React.js
+- TailwindCSS
+- Axios (API calls)
+- Vite (Bundler)
+
+**Backend**
+- Node.js
+- Express.js
+- MySQL (Database)
+- bcrypt.js (Password hashing)
+- JWT (Authentication)
+
+---
+
+## 📂 Project Structure
+
