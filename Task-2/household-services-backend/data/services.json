@@ -1,0 +1,4 @@
+[
+  { "id": 1, "title": "AC Repair", "description": "Air conditioning repair services.", "image": "images/ac-service.jpg" },
+  { "id": 2, "title": "Cleaning", "description": "Professional home cleaning.", "image": "images/cleaning.jpg" }
+]

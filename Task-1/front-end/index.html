@@ -44,7 +44,7 @@
         <img src="images/taxi.png" alt="" />
         <div class="text">
           <p class="black">Custom Mobile App</p>
-          <p class="colorful cl ">Development for "Texi Business"</p>
+          <p class="colorful cl">Development for "Texi Business"</p>
           <p class="normal">
             ABC Technologies is a mobile app development company that powers
             on-demand apps and business apps for entrepreneurs and enterprises.
@@ -165,7 +165,7 @@
 
     <div class="why-us" id="why">
       <div class="why-t">
-        <p class="colorful ">Why <span class="cl">Choose us</span></p>
+        <p class="colorful">Why <span class="cl">Choose us</span></p>
       </div>
       <div class="why-c">
         <div class="why-one">
@@ -266,7 +266,7 @@
 
     <div class="badges">
       <div class="b-heading">
-        <p class="cl colorful re ">“Badges”</p>
+        <p class="cl colorful re">“Badges”</p>
       </div>
       <div class="archi">
         <div class="cardd">
@@ -357,19 +357,18 @@
       </div>
     </footer>
 
-
     <script>
-      const burger = document.querySelector('#burger')
-      const nav = document.querySelector('#r-nav')
-      const back = document.querySelector('#bck')
-      burger.addEventListener('click',()=>{
-        nav.classList.toggle('none')
-         burger.classList.toggle("active");
-        })
-        back.addEventListener('click',()=>{
+      const burger = document.querySelector("#burger");
+      const nav = document.querySelector("#r-nav");
+      const back = document.querySelector("#bck");
+      burger.addEventListener("click", () => {
+        nav.classList.toggle("none");
         burger.classList.toggle("active");
-        nav.classList.toggle('none')
-      })
+      });
+      back.addEventListener("click", () => {
+        burger.classList.toggle("active");
+        nav.classList.toggle("none");
+      });
     </script>
   </body>
 </html>
