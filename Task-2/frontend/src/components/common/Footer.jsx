@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="space-y-2 text-gray-400">
               <div className="flex items-center">
                 <Phone className="w-4 h-4 mr-2" />
-                <span>(555) 123-4567</span>
+                <span>(+91) 1234567890</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
@@ -27,7 +27,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <MapPin className="w-4 h-4 mr-2" />
-                <span>123 Service St, City, State 12345</span>
+                <span>Uttarakhand (Udham singh nagar) 263160</span>
               </div>
             </div>
           </div>
